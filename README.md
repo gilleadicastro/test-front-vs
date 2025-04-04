@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AstroDev Project
 
-## Getting Started
+Este projeto foi desenvolvido como teste para uma vaga, tendo como objetivo demonstrar conhecimentos em **React** e **Next.js**, além de boas práticas de organização, responsividade e estilização com **Tailwind CSS**.
 
-First, run the development server:
+## Tecnologias utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [**Next.js**](https://nextjs.org/) – Framework React para produção de aplicações Web
+- [**React**](https://react.dev/) – Biblioteca principal para construção da UI
+- [**TypeScript**](https://www.typescriptlang.org/) – Tipagem estática para JavaScript
+- [**Tailwind CSS**](https://tailwindcss.com/) – Framework de utilitários CSS para estilização rápida e responsiva
+- [**Day.js**](https://day.js.org/) – Manipulação de datas
+- [**Lucide React**](https://lucide.dev/docs/lucide-react) – Ícones de fácil integração
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **CountDown** – Um contador regressivo que informa ao usuário quanto tempo resta até um “lançamento”.
+2. **To-do List** – Permite criação de tarefas, marcação como concluídas e exclusão:
+   - As tarefas são persistidas em `localStorage`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como executar localmente
 
-## Learn More
+1. **Clonar o repositório**  
+   ```bash
+   git clone https://github.com/gilleadicastro/astrodev-project.git
+   cd astrodev-project
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instalar dependências**  
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Iniciar o servidor de desenvolvimento**  
+   ```bash
+   npm run dev
+   ```
+   ou
+   ```bash
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Acessar no navegador**  
+   Abra [http://localhost:3000](http://localhost:3000) para ver o projeto em funcionamento.
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto está sob licença livre (a definir, caso deseje). Fique à vontade para utilizar, modificar e distribuir.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<p align="center">
+Feito com ❤️ por <strong>Gilleadi Castro</strong>
+</p>
